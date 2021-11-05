@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&family=Montserrat+Alternates:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bg-clear{
+    margin: 3rem auto;
+    background-image: url(Components/images/texture.jpg);
+    height: 350px;
+    font-family: 'Fruktur', cursive;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 2rem 3rem;
+}
+
+.text-left{
+    font-weight: 600;
+    color: #fff;
+}
+
+.label, small{
+    color: #fff;
+}
+
+small{
+    margin-right: 2.5rem;
+}
+
+.bottom-btn{
+    margin-top: .5rem;
+    margin-left: 6rem;
+}

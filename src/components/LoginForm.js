@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function LoginForm() {
     return (
-        <div className="col-md-5">
+        <div className="col-md-5" id="bg-clear">
            
             <div className="row">
                 <div className="col-md-6">
@@ -23,7 +23,7 @@ export default function LoginForm() {
             <div className="row">
                 <label className="label col-md-2 control-label">Password</label>
                 <div className="col-md-10">
-                    <input type="Password" className="from-control" name="Password" placeholder="Password" />
+                    <input type="Password" className="from-control" name="Password" placeholder="Password" /><br/>
                     <input type="checkbox"/><small>Remember</small>
                 </div>
             </div>
