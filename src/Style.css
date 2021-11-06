@@ -33,7 +33,7 @@ h3{
 }
 
 .row {
-    margin-bottom: 0.2rem;
+    margin: 1rem;
 }
 
 .col-md-5{
@@ -44,6 +44,14 @@ h3{
     position: absolute;
     left: 50%;
     height: 500px;
+}
+
+.col-md-6, .col-md-10 {
+    border-bottom: 2px solid #fff;
+}
+
+.border-b-none {
+    border-bottom: none;
 }
 
 .text-left {
@@ -76,7 +84,7 @@ small {
 }
 
 input[type="checkbox"] {
-    margin-top: 1rem;
+    margin-top: .5rem;
     width: 1rem;
     height: 1rem;
 }
@@ -85,6 +93,24 @@ input[type="radio"] {
     margin-top: 1rem;
     width: 1rem;
     height: 1rem;
+}
+
+input[type="Email"], 
+input[type="Password"],
+textarea {
+    background: transparent;
+    border: none;
+}
+
+.checking {
+    /* margin-left: 3rem; */
+    border: 10px solide red;
+}
+
+select {
+    color: #fff;
+    background: transparent;
+    border: none;
 }
 
 option{
